@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fotoperfilsize">80dp</dimen>
+    <dimen name="fotogruposize">80dp</dimen>
+    <dimen name="normal_buttons">15sp</dimen>
+    <dimen name="normal_text">15sp</dimen>
+    <dimen name="picturelist">80dp</dimen>
+    <dimen name="padding">3dp</dimen>
+    <dimen name="locationButton">32dp</dimen>dimen>
+</resources>

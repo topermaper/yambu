@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- the theme applied to the application or activity -->
+<style name="CustomActionBarTheme"
+    parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+    <!-- Support library compatibility -->
+    <!--<item name="actionBarStyle">@style/MyActionBar</item>-->
+    <item name="actionBarSize">64dp</item>
+
+</style>
+
+
+
+</resources>

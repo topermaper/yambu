@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_separador">#0078BD</color>
+    <color name="color_titulo_dialogo">#0078BD</color>
+    <color name="main_background">#EDFFFD</color>
+    <color name="transparente">#00000000</color>
+    <color name="negro">#000000</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="blue">#FF33B5E5</color>
+    <color name="purple">#FFAA66CC</color>
+    <color name="green">#FF99CC00</color>
+    <color name="orange">#FFFFBB33</color>
+    <color name="red">#FFFF4444</color>
+    <color name="darkblue">#FF0099CC</color>
+    <color name="darkpurple">#FF9933CC</color>
+    <color name="darkgreen">#FF669900</color>
+    <color name="darkorange">#FFFF8800</color>
+    <color name="darkred">#FFCC0000</color>
+    <color name="fondo_actionbar">#b10071ac</color>
+    <color name="actionbar_text">#b1e9ec08</color>
+    <color name="highlight">#288583</color>
+    <color name="separator_list">#ff0e4f49</color>
+    <color name="background_spinner_edit_events">#288583</color>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_logout" type="id" />
+    <item name="action_notificaciones" type="id" />
+    <item name="action_listaGrupos" type="id" />
+    <item name="action_listaEventos" type="id" />
+    <item name="action_editarEvento" type="id" />
+    <item name="action_add_event" type="id" />
+    <item name="action_profile" type="id" />
+    <item name="action_follow_group" type="id" />
+    <item name="action_unfollow_group" type="id" />
+    <item name="action_eventslist_options" type="id" />
+    <item name="action_edit_event" type="id" />
+    <item name="action_delete_event" type="id" />
+    <item name="action_add_group" type="id" />
+    <item name="action_edit_group" type="id" />
+    <item name="action_delete_group" type="id" />
+    <item name="action_view_image" type="id" />
+    <item name="action_view_detail" type="id" />
+    <item name="action_messages" type="id"/>
+    <item name="action_help" type="id"/>
+
+
+</resources>

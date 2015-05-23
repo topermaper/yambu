@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/transparente"
+        android:layout_above="@+id/btn_login">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:text="@string/login_title"
+                android:textSize="@dimen/normal_text"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginBottom="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register_email"
+                android:id="@+id/textView2"
+                android:textSize="@dimen/normal_text"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/register_hint_email"
+                android:id="@+id/email"
+                android:inputType="textEmailAddress"
+                android:textSize="@dimen/normal_text"
+                android:textColor="#000000"
+                android:layout_marginBottom="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/accountask"
+                android:text="@string/account_ask"
+                android:textSize="@dimen/normal_text"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:paddingBottom="10sp"/>
+
+            <RadioGroup
+                android:id="@+id/radio_group1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/radio_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_ask_rb_no"/>
+                <RadioButton
+                    android:id="@+id/radio_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_ask_rb_yes"
+                    android:checked="true"/>
+            </RadioGroup>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:id="@+id/pword"
+                android:hint="@string/register_hint_password"
+                android:textSize="@dimen/normal_text"
+                android:textColor="#000000"
+                android:layout_marginLeft="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_continue"
+        android:id="@+id/btn_login"
+        android:textSize="@dimen/normal_text"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/src/main/res/layout/activity_login.xml -->

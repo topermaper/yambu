@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnAccept"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/transparente">
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dip">
+
+
+
+            <TextView
+                android:id="@+id/tvGroupImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group logo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/negro" />
+
+            <ImageView
+                android:id="@+id/ivImgGrupo"
+                android:layout_width="@dimen/fotogruposize"
+                android:layout_height="@dimen/fotogruposize"
+                android:contentDescription="Imagen de perfil"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:id="@+id/tvGroupName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/negro" />
+
+            <EditText
+                android:id="@+id/etNick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:hint="Group name" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_accept"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+</RelativeLayout><!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/src/main/res/layout/editar_grupo.xml -->

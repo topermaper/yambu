@@ -1,0 +1,67 @@
+<resources>
+    <string name="API_KEY">AIzaSyCHToKGpvnTf1ce90nW7PS9iBu6uXqyfRg</string>
+    <string name="app_name">Yambú</string>
+    <string name="appVersionTxt">App version</string>
+    <string name="appVersionNumber">1.0.2</string>
+    <string name="OSLicenses">Open source licenses</string>
+    <string name="myEmailAddress">marcosedoatienza@gmail.com</string>
+    <string name="feedbackMail">Feedback via email</string>
+    <string name="headerOSLicenses">Yambu is built using open source software and is licensed under the Apache License 2.0.\n</string>
+
+    <string name="boton_agenda">Agenda de conciertos</string>
+    <string name="boton_administrador">Administrador de eventos</string>
+    <string name="boton_agregar_evento">Accept</string>
+    <string name="button_back">Back</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_accept">Accept</string>
+    <string name="button_select_image">Select image</string>
+    <string name="button_ok">Ok</string>
+    <string name="txt_group">Group name</string>
+    <string name="txt_lugar">Location</string>
+    <string name="txt_precio">Price</string>
+    <string name="txt_fecha">Date</string>
+    <string name="txt_cartel">Banner</string>
+
+    <string name="txt_url">URL</string>
+    <string name="txt_hora">Hora</string>
+    <string name="hint_lugar">Wembley Stadium</string>
+    <string name="hint_hora">hh:mm</string>
+    <string name="hint_fecha">dd/mm/yyyy</string>
+    <string name="hint_url">www.wembleystadium.com</string>
+    <string name="actionbar_listado">Lista de conciertos</string>
+    <string name="actionbar_añadir">Añadir conciertos</string>
+    <string name="actionbar_eliminar">Eliminar conciertos</string>
+    <string name="ctxlst_evento_op1">Show image</string>
+    <string name="ctxlst_evento_op2">Show event detail</string>
+    <string name="ctxlst_evento_op3">Edit event</string>
+    <string name="ctxlst_evento_op4">Delete event</string>
+    <string name="register_msg1">Register process successful. We\'ve sent you an email. Check your mail and follow the instruccions to activate your Yambu account.</string>
+    <string name="register_nombre">Name</string>
+    <string name="register_apellidos">Lastname</string>
+    <string name="register_email">E-mail</string>
+    <string name="register_password">Password</string>
+    <string name="register_username">Username</string>
+    <string name="register_date">Register date</string>
+    <string name="register_hint_email">e-mail</string>
+    <string name="register_hint_password">password</string>
+    <string name="register_hint_repeat_password">repeat password</string>
+    <string name="register_hint_nombre">Name</string>
+    <string name="register_hint_apellidos">Last name</string>
+
+    <string name="profile_image">Profile image</string>
+
+    <string name="login_title">Please login.</string>
+    <string name="account_ask">Do you have a Yambú account?</string>
+    <string name="account_ask_rb_yes">Yes, my password is :</string>
+    <string name="account_ask_rb_no">No, I am new to Yambú</string>
+
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="button_save_changes">Save changes</string>
+
+    <string name="hintCommentTxt">Publish a comment</string>
+    <string name="btn_rispond">Rispond</string>
+    <string name="btn_publish">Publish</string>
+    <string name="btnShowMore">Show more</string>
+    <string name="event_deleted">Event deleted</string>
+</resources>
