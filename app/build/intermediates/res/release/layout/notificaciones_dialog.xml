@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+   
+    
+   	<TextView android:id="@+id/TvTitulo"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:inputType="none" 
+        android:gravity="center"
+        android:background="@color/color_titulo_dialogo"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+    <RelativeLayout 
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_background">
+        
+       <ImageView
+	        android:id="@+id/ivImage"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentTop="true"
+        	android:layout_alignParentLeft="true"/>
+       
+        <TextView android:id="@+id/TvNotificacion"
+        	android:layout_height="wrap_content"
+       		android:layout_width="wrap_content"
+       		android:minHeight="100dip"
+       		android:layout_alignParentTop="true"
+       		android:layout_toRightOf="@+id/ivImage"
+       		android:paddingLeft="5dip"
+       		android:textColor="@color/negro"
+       		android:textAppearance="?android:attr/textAppearanceMedium"/>
+       		
+        <LinearLayout
+             android:layout_width="match_parent"
+       		 android:layout_height="wrap_content"
+       		 android:layout_below="@+id/TvNotificacion"
+       		 android:layout_alignParentLeft="true"
+       		 android:layout_marginTop="4dip" >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/BtnAceptar"
+            android:text="Aceptar"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/BtnCancelar"
+            android:text="Cancelar"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/src/main/res/layout/notificaciones_dialog.xml -->

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:cacheColorHint="#00000000" >
+
+    <TextView
+        android:id="@+id/tvSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/negro"
+        android:background="@color/separator_list"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/tvGrupo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@id/ivCartel"
+        android:layout_toRightOf="@id/ivCartel"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	<ImageView
+	    android:id="@+id/ivCartel"
+        android:layout_width="@dimen/picturelist"
+        android:layout_height="@dimen/picturelist"
+        android:layout_below="@+id/tvSeparator"
+        android:layout_alignParentLeft="true"
+        android:paddingRight="5dp"/>
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGrupo"
+        android:layout_toRightOf="@id/ivCartel"
+        android:singleLine="true"    
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingRight="5dp"/>
+ 
+    <TextView
+        android:id="@+id/tvLugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFecha"
+        android:layout_toRightOf="@id/ivCartel"
+        android:singleLine="false"
+        android:paddingRight="5dp"/>
+    
+    <TextView
+        android:id="@+id/tvHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tvFecha"
+        android:layout_toRightOf="@id/tvFecha"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="5dp"/>
+    
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"/>
+        
+	<TextView
+        android:id="@+id/tvPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFecha"
+        android:layout_toRightOf="@id/tvLugar"
+        android:singleLine="true"
+        android:paddingRight="5dp"/>
+    <ImageView
+        android:id="@+id/ivStarOn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_alignTop="@+id/ivCartel"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/star_big_on"
+        android:visibility="gone"
+        android:clickable="true"/>
+    <ImageView
+        android:id="@+id/ivStarOff"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_alignTop="@+id/ivCartel"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/star_big_off"
+        android:visibility="visible"
+        android:clickable="true"/>
+           
+</RelativeLayout>
+<!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/src/main/res/layout/linea_lista_eventos.xml -->
