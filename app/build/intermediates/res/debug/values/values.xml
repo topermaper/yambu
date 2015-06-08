@@ -285,6 +285,7 @@
     <eat-comment/>
     <item name="action_messages" type="id"/>
     <item name="action_notificaciones" type="id"/>
+    <item name="action_preferences" type="id"/>
     <item name="action_profile" type="id"/>
     <item name="action_unfollow_group" type="id"/>
     <item name="action_view_detail" type="id"/>
@@ -304,8 +305,10 @@
     <integer name="google_play_services_version">7327000</integer>
     <!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="API_KEY">AIzaSyCHToKGpvnTf1ce90nW7PS9iBu6uXqyfRg</string>
+    <string name="API_KEY">AIzaSyCWhTb226g1OAaLOcesvYb7QXwAzcXpSXw</string>
+    <string name="LAN">LAN</string>
     <string name="OSLicenses">Open source licenses</string>
+    <string name="WAN">WAN</string>
     <!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -333,10 +336,7 @@
     <string name="account_ask">Do you have a Yambú account?</string>
     <string name="account_ask_rb_no">No, I am new to Yambú</string>
     <string name="account_ask_rb_yes">Yes, my password is :</string>
-    <string name="actionbar_añadir">Añadir conciertos</string>
-    <string name="actionbar_eliminar">Eliminar conciertos</string>
-    <string name="actionbar_listado">Lista de conciertos</string>
-    <string name="appVersionNumber">1.0.2</string>
+    <string name="appVersionNumber">1.0.5</string>
     <string name="appVersionTxt">App version</string>
     <string name="app_name">Yambú</string>
     <string name="boton_administrador">Administrador de eventos</string>
@@ -348,11 +348,9 @@
     <string name="button_accept">Accept</string>
     <string name="button_back">Back</string>
     <string name="button_continue">Continue</string>
-    <string name="button_no">No</string>
     <string name="button_ok">Ok</string>
     <string name="button_save_changes">Save changes</string>
     <string name="button_select_image">Select image</string>
-    <string name="button_yes">Yes</string>
     <!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values/common_strings.xml -->
     <eat-comment/>
     <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
@@ -402,6 +400,7 @@ available. Please contact the developer for assistance.</string>
     <string name="decline">Decline</string>
     <!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="empty_fields_error">Fill all the fields</string>
     <string name="event_deleted">Event deleted</string>
     <string name="feedbackMail">Feedback via email</string>
     <string name="headerOSLicenses">Yambu is built using open source software and is licensed under the Apache License 2.0.\n</string>
@@ -410,8 +409,13 @@ available. Please contact the developer for assistance.</string>
     <string name="hint_hora">hh:mm</string>
     <string name="hint_lugar">Wembley Stadium</string>
     <string name="hint_url">www.wembleystadium.com</string>
+    <string name="kilometers">Kilometers</string>
     <string name="login_title">Please login.</string>
+    <string name="miles">Miles</string>
     <string name="myEmailAddress">marcosedoatienza@gmail.com</string>
+    <string name="no">No</string>
+    <string name="password_lenght_error">Password must be at least 6 characters long</string>
+    <string name="password_mismatch_error">Passwords don\'t match</string>
     <string name="profile_image">Profile image</string>
     <string name="register_apellidos">Lastname</string>
     <string name="register_date">Register date</string>
@@ -421,10 +425,13 @@ available. Please contact the developer for assistance.</string>
     <string name="register_hint_nombre">Name</string>
     <string name="register_hint_password">password</string>
     <string name="register_hint_repeat_password">repeat password</string>
-    <string name="register_msg1">Register process successful. We\'ve sent you an email. Check your mail and follow the instruccions to activate your Yambu account.</string>
+    <string name="register_msg">Register process successful. We\'ve sent you an email. Check your mail and follow the instruccions to activate your Yambu account.</string>
     <string name="register_nombre">Name</string>
     <string name="register_password">Password</string>
     <string name="register_username">Username</string>
+    <string name="remind_later">Remind later</string>
+    <string name="serverLocation">ServerLocation</string>
+    <string name="showdistancesin">Show distances in</string>
     <!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
@@ -434,13 +441,18 @@ available. Please contact the developer for assistance.</string>
     <string name="txt_cartel">Banner</string>
     <string name="txt_fecha">Date</string>
     <string name="txt_group">Group name</string>
-    <string name="txt_hora">Hora</string>
+    <string name="txt_hora">Time</string>
     <string name="txt_lugar">Location</string>
     <string name="txt_precio">Price</string>
     <string name="txt_url">URL</string>
+    <string name="unknow_distance">Unknow distance</string>
+    <string name="username_lenght_error">Usernames must be at least 5 characters long</string>
     <!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/res/values/wallet_strings.xml -->
     <eat-comment/>
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
+    <!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="yes">Yes</string>
     <!-- From: file:/C:/Archivos%20de%20programa/Android/AndroidWorkspace/yambu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

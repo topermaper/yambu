@@ -2,18 +2,24 @@
 <items version="2" >
 
     <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.3.0\jars\classes.jar"
+        jar="C:\Archivos de programa\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-d5753c2819f3a63275c5ac8e920836c5b48b0ab0.jar" />
+        revision="22.0.1" sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-dae0559cd915eb51ac554dd363f2f4ebaa2d83c9.jar" />
     </item>
     <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.3.0\jars\classes.jar"
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.3.0\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="565a01f90f1529f73362707c4c185d0623a68782">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-cd54fcf0d68abca650b0945607c9d4d865f423ab.jar" />
+        revision="22.0.1" sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-af2d8925b5de4ccec19e240e39149b37876b39c0.jar" />
+    </item>
+    <item
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false" revision="22.0.1" sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-7b464373ba424592de85f288e7e5b410a2119c3e.jar" />
     </item>
     <item
         jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.3.0\jars\classes.jar"
@@ -23,25 +29,25 @@
         <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-738559fa6ac832d33f4a0bcc27b80647949a0975.jar" />
     </item>
     <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.3.0\jars\classes.jar"
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-6c316a987fb40b94a11d986d33019b3b21e7a32e.jar" />
+        revision="22.0.1" sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-46ede095602a235a73a696b74c31dfb9a66a80c3.jar" />
     </item>
     <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.3.0\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-d7075bff6cede2d271ac0652a475f9e12bde322d.jar" />
+        revision="22.0.1" sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-a0af7e22972c2b9f16b68771ab9fbdd732156456.jar" />
     </item>
     <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.3.0\jars\classes.jar"
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.3.0\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-b6da60db21d2388533dfa49cd9fff8cfaca49cd8.jar" />
+        revision="22.0.1" sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-1e9c7de27da30cc3d02bf732e82b3910486251e9.jar" />
     </item>
     <item
         jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.3.0\jars\classes.jar"
@@ -51,11 +57,11 @@
         <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-3dc389e3017cac368983a2b094e1bade4f7d6da2.jar" />
     </item>
     <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\jars\classes.jar"
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-2cfd850a5ea307fcdb5b9aa42ac38f10050c93e9.jar" />
+        revision="22.0.1" sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-cb29a23180ea484b1a219fab9b5521e613a7648d.jar" />
     </item>
     <item
         jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.3.0\jars\classes.jar"
@@ -65,18 +71,24 @@
         <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-d12747ec256ce015e1f8ee3dec24529709c09726.jar" />
     </item>
     <item
-        jar="C:\Archivos de programa\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.3.0\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-dae0559cd915eb51ac554dd363f2f4ebaa2d83c9.jar" />
+        revision="22.0.1" sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-6a4c5752b13568d75bca5fdea3bcb9f8bb28dbc4.jar" />
     </item>
     <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.3.0\jars\classes.jar"
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.3.0\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-36134a066e45184bf9d745ce89d83825e5f05290.jar" />
+        revision="22.0.1" sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-cd54fcf0d68abca650b0945607c9d4d865f423ab.jar" />
+    </item>
+    <item
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.3.0\jars\classes.jar"
+        jumboMode="false" revision="22.0.1" sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-b5fa034831f0be8006419baafa27181db47993cd.jar" />
     </item>
     <item
         jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.3.0\jars\classes.jar"
@@ -86,88 +98,88 @@
         <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-2b1c414381321a0051266625c23dcef876de2672.jar" />
     </item>
     <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-7b464373ba424592de85f288e7e5b410a2119c3e.jar" />
+        revision="22.0.1" sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-2cfd850a5ea307fcdb5b9aa42ac38f10050c93e9.jar" />
     </item>
     <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.3.0\jars\classes.jar"
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.3.0\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-2210a29fb3b717e788e5870611a067804c689770.jar" />
+        revision="22.0.1" sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-d5753c2819f3a63275c5ac8e920836c5b48b0ab0.jar" />
     </item>
     <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.3.0\jars\classes.jar"
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\libs\androidmarketapi-0.6.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-8370712b26b4d985850baf413e931c113e8875b8.jar" />
-    </item>
-    <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-af2d8925b5de4ccec19e240e39149b37876b39c0.jar" />
-    </item>
-    <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-1e9c7de27da30cc3d02bf732e82b3910486251e9.jar" />
-    </item>
-    <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-cb29a23180ea484b1a219fab9b5521e613a7648d.jar" />
+        revision="22.0.1" sha1="928622688feec7ec7adcc3fb7067d69d39e3303c">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\release\androidmarketapi-0.6-55793f8858fefb68082e7a99ea21bdb5f9bab910.jar" />
     </item>
     <item
         jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.3.0\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-1a18ca8060a7b69b6beb257c68ad833abd804839.jar" />
+        revision="22.0.1" sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-1a18ca8060a7b69b6beb257c68ad833abd804839.jar" />
     </item>
     <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.3.0\jars\classes.jar"
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\libs\protobuf-java-2.2.0.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-6a4c5752b13568d75bca5fdea3bcb9f8bb28dbc4.jar" />
-    </item>
-    <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-46ede095602a235a73a696b74c31dfb9a66a80c3.jar" />
-    </item>
-    <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-a0af7e22972c2b9f16b68771ab9fbdd732156456.jar" />
-    </item>
-    <item
-        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-b5fa034831f0be8006419baafa27181db47993cd.jar" />
+        revision="22.0.1" sha1="2a95d3e6df137d3369cc479ce7ad77703e430b2b">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\release\protobuf-java-2.2.0-65b3a52b95f7323d9d3f5965601a274ba66427ad.jar" />
     </item>
     <item
         jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.3.0\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
-        <dex dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-20fc8ed19d7728c7e5eeca547721e8c7c11d30c7.jar" />
+        revision="22.0.1" sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-20fc8ed19d7728c7e5eeca547721e8c7c11d30c7.jar" />
+    </item>
+    <item
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1" sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-8370712b26b4d985850baf413e931c113e8875b8.jar" />
+    </item>
+    <item
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1" sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-b6da60db21d2388533dfa49cd9fff8cfaca49cd8.jar" />
+    </item>
+    <item
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1" sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-6c316a987fb40b94a11d986d33019b3b21e7a32e.jar" />
+    </item>
+    <item
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1" sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-36134a066e45184bf9d745ce89d83825e5f05290.jar" />
+    </item>
+    <item
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1" sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\classes-2210a29fb3b717e788e5870611a067804c689770.jar" />
+    </item>
+    <item
+        jar="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1" sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex
+            dex="C:\Archivos de programa\Android\AndroidWorkspace\yambu\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-d7075bff6cede2d271ac0652a475f9e12bde322d.jar" />
     </item>
 
 </items>

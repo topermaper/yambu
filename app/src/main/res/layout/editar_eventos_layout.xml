@@ -60,10 +60,10 @@
                     android:id="@+id/btnLocation"
                     android:layout_width="@dimen/locationButton"
                     android:layout_height="@dimen/locationButton"
-                    android:layout_toRightOf="@+id/tvLugar"
-                    android:layout_alignParentTop="true"
                     android:layout_above="@+id/tvLugar2"
+                    android:layout_alignParentTop="true"
                     android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/tvLugar"
                     android:background="@drawable/ic_menu_mapmode" />
 
                 <TextView
@@ -71,22 +71,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
-                    android:layout_below="@+id/tvLugar"/>
+                    android:layout_below="@+id/tvLugar" />
 
                 <TextView
                     android:id="@+id/tvAttributions"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvLugar2"
-                    android:visibility="gone"/>
+                    android:visibility="gone" />
 
                 <ImageView
                     android:id="@+id/poweredBy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/powered_by_google_light"
                     android:layout_below="@+id/tvLugar2"
-                    android:visibility="gone"/>
+                    android:src="@drawable/powered_by_google_light"
+                    android:visibility="gone" />
 
             </RelativeLayout>
 
@@ -123,20 +123,42 @@
                 android:hint="@string/hint_hora"
                 android:inputType="time" />
 
-            <TextView
-                android:id="@+id/tvPrecio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/txt_precio"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/negro" />
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <EditText
-                android:id="@+id/etPrecio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="number"
-                android:minWidth="48dp" />
+                <TextView
+                    android:id="@+id/tvPrecio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/txt_precio"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/negro" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPrecio"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etPrecio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:minWidth="48dp" />
+
+                    <Spinner
+                        android:id="@+id/spCurrency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom" />
+                </LinearLayout>
+
+            </RelativeLayout>
 
             <TextView
                 android:id="@+id/tvUrl"
@@ -168,7 +190,7 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
-                android:adjustViewBounds="true"/>
+                android:adjustViewBounds="true" />
 
         </LinearLayout>
 

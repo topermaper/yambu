@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvFecha"
         android:layout_toRightOf="@id/ivCartel"
-        android:singleLine="true"
+        android:singleLine="false"
         android:paddingRight="5dp"/>
     
     <TextView
@@ -62,11 +62,11 @@
         android:paddingLeft="5dp"/>
     
     <TextView
-        android:id="@+id/tvUrl"
+        android:id="@+id/tvDistance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tvLugar"
-        android:layout_toRightOf="@id/ivCartel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
         android:singleLine="true"/>
         
 	<TextView
@@ -81,6 +81,7 @@
         android:id="@+id/ivStarOn"
         android:layout_width="40dp"
         android:layout_height="40dp"
+        android:layout_marginTop="3dp"
         android:layout_alignTop="@+id/ivCartel"
         android:layout_alignParentRight="true"
         android:background="@drawable/star_big_on"
@@ -90,6 +91,7 @@
         android:id="@+id/ivStarOff"
         android:layout_width="40dp"
         android:layout_height="40dp"
+        android:layout_marginTop="3dp"
         android:layout_alignTop="@+id/ivCartel"
         android:layout_alignParentRight="true"
         android:background="@drawable/star_big_off"

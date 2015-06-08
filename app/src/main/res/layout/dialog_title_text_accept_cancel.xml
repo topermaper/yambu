@@ -44,7 +44,7 @@
                 android:layout_marginLeft="3dip"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/button_no" />
+                android:text="@string/no" />
 
             <Button
                 android:id="@+id/BtnAceptar"
@@ -53,7 +53,7 @@
                 android:layout_marginRight="3dip"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/button_yes" />
+                android:text="@string/yes" />
         </LinearLayout>
     </RelativeLayout>
 </LinearLayout>

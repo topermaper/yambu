@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.marcosedo"
+    package="com.marcosedo.yambu"
     android:versionCode="4"
     android:versionName="@string/appVersionNumber" >
 
@@ -16,14 +16,15 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="com.marcosedo.login.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.marcosedo.yambu.permission.C2D_MESSAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <permission
-        android:name="com.google.marcosedo.login.permission.MAPS_RECEIVE"
+        android:name="com.marcosedo.yambu.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
     <permission
-        android:name="com.google.marcosedo.login.permission.C2D_MESSAGE"
+        android:name="com.marcosedo.yambu.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
     <uses-feature
@@ -46,23 +47,27 @@
             android:value="@integer/google_play_services_version" />
 
         <receiver
-            android:name="com.google.marcosedo.yambu.GcmBroadcastReceiver"
+            android:name="com.marcosedo.yambu.app.GcmBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.google.marcosedo.login" />
+                <category android:name="com.marcosedo.yambu" />
             </intent-filter>
         </receiver>
 
-        <service android:name="com.google.marcosedo.yambu.GcmIntentService" />
+        <service android:name="com.marcosedo.yambu.app.GcmIntentService" />
 
         <activity
-            android:name="com.google.marcosedo.yambu.MainActivity"
+            android:name="com.marcosedo.yambu.app.MainActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.google.marcosedo.login.Login"
+            android:name="com.marcosedo.yambu.login.checkUpdateActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.marcosedo.yambu.login.Login"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -70,15 +75,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.google.marcosedo.login.Register" >
+        <activity android:name="com.marcosedo.yambu.login.Register" >
         </activity>
-        <activity android:name="com.google.marcosedo.login.Registered" >
+        <activity android:name="com.marcosedo.yambu.login.Registered" >
         </activity>
-        <activity android:name="com.google.marcosedo.login.Main" >
+        <activity android:name="com.marcosedo.yambu.login.Main" >
         </activity>
-        <activity android:name="com.google.marcosedo.login.PasswordReset" >
+        <activity android:name="com.marcosedo.yambu.login.PasswordReset" >
         </activity>
-        <activity android:name="com.google.marcosedo.login.ChangePassword" >
+        <activity android:name="com.marcosedo.yambu.login.ChangePassword" >
         </activity>
     </application>
 

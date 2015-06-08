@@ -1,20 +1,34 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'yambu keystore'
+            keyPassword 'c3por2d21981'
+            storeFile file('C:/Archivos de programa/Android/AndroidWorkspace/yambu_keystore.release.jks')
+            storePassword 'c3por2d21981'
+        }
+    }
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
-
     defaultConfig {
-        applicationId "com.google.marcosedo"
+        applicationId "com.marcosedo.yambu"
         minSdkVersion 10
         targetSdkVersion 22
+        signingConfig signingConfigs.config
     }
-
     buildTypes {
+        debug {
+            //buildConfigField "String", "DOMAIN", "\"http://www.topian.comli.com/\""
+            buildConfigField "String", "DOMAIN", "\"http://192.168.0.101/yambu/\""
+        }
         release {
+            buildConfigField "String", "DOMAIN", "\"http://www.topian.comli.com/\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+    }
+    productFlavors {
     }
 }
 

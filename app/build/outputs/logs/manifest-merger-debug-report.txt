@@ -8,77 +8,81 @@ ADDED from AndroidManifest.xml:6:1
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:versionName
-		ADDED from AndroidManifest.xml:6:139
+		ADDED from AndroidManifest.xml:6:138
 	android:versionCode
-		ADDED from AndroidManifest.xml:6:111
+		ADDED from AndroidManifest.xml:6:110
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from AndroidManifest.xml:8:193
+ADDED from AndroidManifest.xml:9:193
 	android:name
-		ADDED from AndroidManifest.xml:8:210
+		ADDED from AndroidManifest.xml:9:210
 uses-permission#android.permission.INTERNET
-ADDED from AndroidManifest.xml:9:290
+ADDED from AndroidManifest.xml:10:290
 	android:name
-		ADDED from AndroidManifest.xml:9:307
+		ADDED from AndroidManifest.xml:10:307
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from AndroidManifest.xml:10:356
+ADDED from AndroidManifest.xml:11:356
 	android:name
-		ADDED from AndroidManifest.xml:10:373
+		ADDED from AndroidManifest.xml:11:373
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from AndroidManifest.xml:11:434
+ADDED from AndroidManifest.xml:12:434
 	android:name
-		ADDED from AndroidManifest.xml:11:451
+		ADDED from AndroidManifest.xml:12:451
 uses-permission#android.permission.WAKE_LOCK
-ADDED from AndroidManifest.xml:12:504
+ADDED from AndroidManifest.xml:13:504
 	android:name
-		ADDED from AndroidManifest.xml:12:521
+		ADDED from AndroidManifest.xml:13:521
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from AndroidManifest.xml:13:571
+ADDED from AndroidManifest.xml:14:571
 	android:name
-		ADDED from AndroidManifest.xml:13:588
+		ADDED from AndroidManifest.xml:14:588
 uses-permission#android.permission.VIBRATE
-ADDED from AndroidManifest.xml:14:653
+ADDED from AndroidManifest.xml:15:653
 	android:name
-		ADDED from AndroidManifest.xml:14:670
+		ADDED from AndroidManifest.xml:15:670
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from AndroidManifest.xml:15:718
+ADDED from AndroidManifest.xml:16:718
 	android:name
-		ADDED from AndroidManifest.xml:15:735
-uses-permission#com.marcosedo.login.permission.C2D_MESSAGE
-ADDED from AndroidManifest.xml:16:796
+		ADDED from AndroidManifest.xml:16:735
+uses-permission#com.marcosedo.yambu.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:17:796
 	android:name
-		ADDED from AndroidManifest.xml:16:813
+		ADDED from AndroidManifest.xml:17:813
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from AndroidManifest.xml:17:878
+ADDED from AndroidManifest.xml:18:878
 	android:name
-		ADDED from AndroidManifest.xml:17:895
-permission#com.google.marcosedo.login.permission.MAPS_RECEIVE
-ADDED from AndroidManifest.xml:21:960
+		ADDED from AndroidManifest.xml:18:895
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:19:959
+	android:name
+		ADDED from AndroidManifest.xml:19:976
+permission#com.marcosedo.yambu.permission.MAPS_RECEIVE
+ADDED from AndroidManifest.xml:23:1040
 	android:protectionLevel
-		ADDED from AndroidManifest.xml:21:1054
+		ADDED from AndroidManifest.xml:23:1127
 	android:name
-		ADDED from AndroidManifest.xml:21:980
-permission#com.google.marcosedo.login.permission.C2D_MESSAGE
-ADDED from AndroidManifest.xml:24:1097
+		ADDED from AndroidManifest.xml:23:1060
+permission#com.marcosedo.yambu.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:26:1170
 	android:protectionLevel
-		ADDED from AndroidManifest.xml:24:1190
+		ADDED from AndroidManifest.xml:26:1256
 	android:name
-		ADDED from AndroidManifest.xml:24:1117
+		ADDED from AndroidManifest.xml:26:1190
 uses-feature#0x00020000
-ADDED from AndroidManifest.xml:28:1234
+ADDED from AndroidManifest.xml:30:1300
 	android:required
-		ADDED from AndroidManifest.xml:28:1297
+		ADDED from AndroidManifest.xml:30:1363
 	android:glEsVersion
-		ADDED from AndroidManifest.xml:28:1256
+		ADDED from AndroidManifest.xml:30:1322
 uses-feature#android.hardware.camera
-ADDED from AndroidManifest.xml:30:1327
+ADDED from AndroidManifest.xml:32:1393
 	android:required
-		ADDED from AndroidManifest.xml:30:1398
+		ADDED from AndroidManifest.xml:32:1464
 	android:name
-		ADDED from AndroidManifest.xml:30:1341
+		ADDED from AndroidManifest.xml:32:1407
 application
-ADDED from AndroidManifest.xml:36:1435
+ADDED from AndroidManifest.xml:38:1501
 MERGED from com.android.support:support-v4:22.1.1:22:5
 MERGED from com.android.support:appcompat-v7:22.1.1:22:5
 MERGED from com.android.support:support-v4:22.1.1:22:5
@@ -164,21 +168,21 @@ MERGED from com.google.android.gms:play-services-wearable:7.3.0:19:5
 MERGED from com.google.android.gms:play-services-base:7.3.0:20:5
 MERGED from com.android.support:support-v4:22.1.1:22:5
 	android:label
-		ADDED from AndroidManifest.xml:36:1491
+		ADDED from AndroidManifest.xml:38:1557
 	android:allowBackup
-		ADDED from AndroidManifest.xml:36:1456
+		ADDED from AndroidManifest.xml:38:1522
 	android:icon
-		ADDED from AndroidManifest.xml:36:1532
+		ADDED from AndroidManifest.xml:38:1598
 	android:theme
-		ADDED from AndroidManifest.xml:36:1573
+		ADDED from AndroidManifest.xml:38:1639
 meta-data#com.google.android.geo.API_KEY
-ADDED from AndroidManifest.xml:40:1627
+ADDED from AndroidManifest.xml:42:1693
 	android:name
-		ADDED from AndroidManifest.xml:40:1650
+		ADDED from AndroidManifest.xml:42:1716
 	android:value
-		ADDED from AndroidManifest.xml:40:1708
+		ADDED from AndroidManifest.xml:42:1774
 meta-data#com.google.android.gms.version
-ADDED from AndroidManifest.xml:43:1751
+ADDED from AndroidManifest.xml:45:1817
 MERGED from com.google.android.gms:play-services-base:7.3.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.3.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.3.0:21:9
@@ -207,71 +211,77 @@ MERGED from com.google.android.gms:play-services-base:7.3.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.3.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.3.0:21:9
 	android:name
-		ADDED from AndroidManifest.xml:43:1762
+		ADDED from AndroidManifest.xml:45:1828
 	android:value
-		ADDED from AndroidManifest.xml:43:1819
-receiver#com.google.marcosedo.yambu.GcmBroadcastReceiver
-ADDED from AndroidManifest.xml:48:1886
+		ADDED from AndroidManifest.xml:45:1885
+receiver#com.marcosedo.yambu.app.GcmBroadcastReceiver
+ADDED from AndroidManifest.xml:50:1952
 	android:permission
-		ADDED from AndroidManifest.xml:48:1978
+		ADDED from AndroidManifest.xml:50:2041
 	android:name
-		ADDED from AndroidManifest.xml:48:1903
-intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.marcosedo.login
-ADDED from AndroidManifest.xml:49:2053
+		ADDED from AndroidManifest.xml:50:1969
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.marcosedo.yambu
+ADDED from AndroidManifest.xml:51:2116
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from AndroidManifest.xml:50:2084
+ADDED from AndroidManifest.xml:52:2147
 	android:name
-		ADDED from AndroidManifest.xml:50:2092
-category#com.google.marcosedo.login
-ADDED from AndroidManifest.xml:51:2165
+		ADDED from AndroidManifest.xml:52:2155
+category#com.marcosedo.yambu
+ADDED from AndroidManifest.xml:53:2228
 	android:name
-		ADDED from AndroidManifest.xml:51:2175
-service#com.google.marcosedo.yambu.GcmIntentService
-ADDED from AndroidManifest.xml:54:2277
+		ADDED from AndroidManifest.xml:53:2238
+service#com.marcosedo.yambu.app.GcmIntentService
+ADDED from AndroidManifest.xml:57:2334
 	android:name
-		ADDED from AndroidManifest.xml:54:2286
-activity#com.google.marcosedo.yambu.MainActivity
-ADDED from AndroidManifest.xml:58:2366
+		ADDED from AndroidManifest.xml:57:2343
+activity#com.marcosedo.yambu.app.MainActivity
+ADDED from AndroidManifest.xml:61:2420
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:58:2457
+		ADDED from AndroidManifest.xml:61:2508
 	android:name
-		ADDED from AndroidManifest.xml:58:2388
-activity#com.google.marcosedo.login.Login
-ADDED from AndroidManifest.xml:64:2528
+		ADDED from AndroidManifest.xml:61:2442
+activity#com.marcosedo.yambu.login.checkUpdateActivity
+ADDED from AndroidManifest.xml:66:2575
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:64:2598
+		ADDED from AndroidManifest.xml:66:2672
 	android:name
-		ADDED from AndroidManifest.xml:64:2538
+		ADDED from AndroidManifest.xml:66:2597
+activity#com.marcosedo.yambu.login.Login
+ADDED from AndroidManifest.xml:71:2734
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:71:2803
+	android:name
+		ADDED from AndroidManifest.xml:71:2744
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:65:2639
+ADDED from AndroidManifest.xml:72:2844
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:66:2662
+ADDED from AndroidManifest.xml:73:2867
 	android:name
-		ADDED from AndroidManifest.xml:66:2670
+		ADDED from AndroidManifest.xml:73:2875
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:67:2721
+ADDED from AndroidManifest.xml:74:2926
 	android:name
-		ADDED from AndroidManifest.xml:67:2731
-activity#com.google.marcosedo.login.Register
-ADDED from AndroidManifest.xml:71:2824
+		ADDED from AndroidManifest.xml:74:2936
+activity#com.marcosedo.yambu.login.Register
+ADDED from AndroidManifest.xml:78:3029
 	android:name
-		ADDED from AndroidManifest.xml:71:2834
-activity#com.google.marcosedo.login.Registered
-ADDED from AndroidManifest.xml:74:2909
+		ADDED from AndroidManifest.xml:78:3039
+activity#com.marcosedo.yambu.login.Registered
+ADDED from AndroidManifest.xml:81:3113
 	android:name
-		ADDED from AndroidManifest.xml:74:2919
-activity#com.google.marcosedo.login.Main
-ADDED from AndroidManifest.xml:77:3002
+		ADDED from AndroidManifest.xml:81:3123
+activity#com.marcosedo.yambu.login.Main
+ADDED from AndroidManifest.xml:84:3205
 	android:name
-		ADDED from AndroidManifest.xml:77:3012
-activity#com.google.marcosedo.login.PasswordReset
-ADDED from AndroidManifest.xml:80:3089
+		ADDED from AndroidManifest.xml:84:3215
+activity#com.marcosedo.yambu.login.PasswordReset
+ADDED from AndroidManifest.xml:87:3291
 	android:name
-		ADDED from AndroidManifest.xml:80:3099
-activity#com.google.marcosedo.login.ChangePassword
-ADDED from AndroidManifest.xml:83:3185
+		ADDED from AndroidManifest.xml:87:3301
+activity#com.marcosedo.yambu.login.ChangePassword
+ADDED from AndroidManifest.xml:90:3386
 	android:name
-		ADDED from AndroidManifest.xml:83:3195
+		ADDED from AndroidManifest.xml:90:3396
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:support-v4:22.1.1:20:5

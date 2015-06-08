@@ -111,30 +111,30 @@ public final class R {
 		public static final int powered_by_google_light = 0x7f020067;
 	}
 	public static final class id {
-		public static final int adjust_height = 0x7f0c002a;
-		public static final int adjust_width = 0x7f0c002b;
-		public static final int book_now = 0x7f0c0044;
-		public static final int buyButton = 0x7f0c0041;
-		public static final int buy_now = 0x7f0c0045;
-		public static final int buy_with_google = 0x7f0c0046;
-		public static final int classic = 0x7f0c0048;
-		public static final int donate_with_google = 0x7f0c0047;
-		public static final int grayscale = 0x7f0c0049;
-		public static final int holo_dark = 0x7f0c003c;
-		public static final int holo_light = 0x7f0c003d;
-		public static final int hybrid = 0x7f0c002c;
-		public static final int match_parent = 0x7f0c0043;
-		public static final int monochrome = 0x7f0c004a;
-		public static final int none = 0x7f0c0021;
-		public static final int normal = 0x7f0c001d;
-		public static final int production = 0x7f0c003e;
-		public static final int sandbox = 0x7f0c003f;
-		public static final int satellite = 0x7f0c002d;
-		public static final int selectionDetails = 0x7f0c0042;
-		public static final int slide = 0x7f0c0026;
-		public static final int strict_sandbox = 0x7f0c0040;
-		public static final int terrain = 0x7f0c002e;
-		public static final int wrap_content = 0x7f0c0036;
+		public static final int adjust_height = 0x7f0c002b;
+		public static final int adjust_width = 0x7f0c002c;
+		public static final int book_now = 0x7f0c0045;
+		public static final int buyButton = 0x7f0c0042;
+		public static final int buy_now = 0x7f0c0046;
+		public static final int buy_with_google = 0x7f0c0047;
+		public static final int classic = 0x7f0c0049;
+		public static final int donate_with_google = 0x7f0c0048;
+		public static final int grayscale = 0x7f0c004a;
+		public static final int holo_dark = 0x7f0c003d;
+		public static final int holo_light = 0x7f0c003e;
+		public static final int hybrid = 0x7f0c002d;
+		public static final int match_parent = 0x7f0c0044;
+		public static final int monochrome = 0x7f0c004b;
+		public static final int none = 0x7f0c0022;
+		public static final int normal = 0x7f0c001e;
+		public static final int production = 0x7f0c003f;
+		public static final int sandbox = 0x7f0c0040;
+		public static final int satellite = 0x7f0c002e;
+		public static final int selectionDetails = 0x7f0c0043;
+		public static final int slide = 0x7f0c0027;
+		public static final int strict_sandbox = 0x7f0c0041;
+		public static final int terrain = 0x7f0c002f;
+		public static final int wrap_content = 0x7f0c0037;
 	}
 	public static final class integer {
 		public static final int google_play_services_version = 0x7f0a0003;
@@ -143,7 +143,7 @@ public final class R {
 		public static final int gtm_analytics = 0x7f050000;
 	}
 	public static final class string {
-		public static final int accept = 0x7f060033;
+		public static final int accept = 0x7f060035;
 		public static final int common_android_wear_notification_needs_update_text = 0x7f06000d;
 		public static final int common_android_wear_update_text = 0x7f06000e;
 		public static final int common_android_wear_update_title = 0x7f06000f;
@@ -175,11 +175,11 @@ public final class R {
 		public static final int common_signin_button_text = 0x7f060029;
 		public static final int common_signin_button_text_long = 0x7f06002a;
 		public static final int commono_google_play_services_api_unavailable_text = 0x7f06002b;
-		public static final int create_calendar_message = 0x7f06004b;
-		public static final int create_calendar_title = 0x7f06004c;
-		public static final int decline = 0x7f060051;
-		public static final int store_picture_message = 0x7f060069;
-		public static final int store_picture_title = 0x7f06006a;
+		public static final int create_calendar_message = 0x7f060048;
+		public static final int create_calendar_title = 0x7f060049;
+		public static final int decline = 0x7f06004e;
+		public static final int store_picture_message = 0x7f06006f;
+		public static final int store_picture_title = 0x7f060070;
 		public static final int wallet_buy_button_place_holder = 0x7f06002c;
 	}
 	public static final class style {

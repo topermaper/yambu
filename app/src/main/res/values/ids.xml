@@ -18,6 +18,7 @@
     <item name="action_view_image" type="id" />
     <item name="action_view_detail" type="id" />
     <item name="action_messages" type="id"/>
+    <item name="action_preferences" type="id" />
     <item name="action_help" type="id"/>
 
 
